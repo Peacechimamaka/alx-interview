@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 def canUnlockAll(boxes):
+    '''A function on check boxes'''
     n = len(boxes)
     opened = set()
     stack = [0]
