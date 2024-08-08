@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def minOperations(n):
-    if n <= 1:
-        return 0
-    
     operations = 0
     factor = 2
+
+    if n <= 1:
+        return 0
     
     while n > 1:
         if n % factor == 0:
