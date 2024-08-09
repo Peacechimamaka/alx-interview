@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def minOperations(n):
+    ''' Performs a minimum operation to find the number'''
     operations = 0
     factor = 2
 
