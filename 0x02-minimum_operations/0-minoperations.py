@@ -1,13 +1,7 @@
 #!/usr/bin/python3
 def minOperations(n):
     '''
-    Calculate the minimum number of operations.
-
-    Args:
-        n (int): The target number of characters.
-
-    Returns:
-        int: The minimum number of operations required, or 0 if `n` is to 1.
+    Calculate the minimum number of operations.int: The minimum number
     '''
 
     operations = 0  # Initialize the number of operations performed.
