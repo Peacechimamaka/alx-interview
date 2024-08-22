@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def validUTF8(data):
     # Number of bytes to process
     number_of_bytes = 0
