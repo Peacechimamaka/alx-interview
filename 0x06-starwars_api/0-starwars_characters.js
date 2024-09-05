@@ -42,10 +42,9 @@ request(apiUrl, (error, response, body) => {
   // Use Promise.all to handle all character requests
   Promise.all(characterUrls.map(fetchCharacterName))
     .then((names) => {
-	    names.forEach(name => console.log(name));
+      names.forEach(name => console.log(name));
     })
     .catch(error => {
       console.error('Error fetching character names:', error);
     });
 });
-
